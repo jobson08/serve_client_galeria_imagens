@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 //import { Link } from "react-router-dom";
-import './Navbarc.css';
+import './NavbarCom.css';
 import {
   Button,
   Collapse,
@@ -19,7 +19,7 @@ import {
 
 } from 'reactstrap';
 
-export class Navbarc extends Component {
+export class NavbarCom extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -196,4 +196,4 @@ export class Navbarc extends Component {
   }
 }
 
-export default Navbarc
+export default NavbarCom;

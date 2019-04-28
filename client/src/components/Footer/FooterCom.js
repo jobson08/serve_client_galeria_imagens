@@ -1,5 +1,5 @@
 import React from "react";
-import './Footerc.css'
+import './FooterCom.css'
 //import { Link } from "react-router-dom";
 import {
   Button,
@@ -12,7 +12,7 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
-class Footerc extends React.Component {
+class FooterCom extends React.Component {
   render() {
     return (
       <footer className="footer">
@@ -117,4 +117,4 @@ class Footerc extends React.Component {
   }
 }
 
-export default Footerc;
+export default FooterCom;
